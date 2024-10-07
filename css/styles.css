@@ -15,16 +15,25 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 100%;
   padding-left: 156px;
   padding-right: 156px;
   margin-left: 0;
   margin-right: 0;
 }
 
+.container-header {
+  display: inline-flex;
+  max-width: 100%;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
 .navigation {
   display: flex;
-  padding-top: 24px;
 }
 
 img {
@@ -107,6 +116,11 @@ ul {
   color: #f4f4fd;
 }
 
+.nav {
+  padding-top: 24px;
+  display: flex;
+}
+
 .nav-studio {
   padding-right: 40px;
   color: #2e2f42;
@@ -122,7 +136,7 @@ ul {
 }
 
 .mailto {
-  padding-left: 40px;
+  padding-right: 40px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -156,6 +170,8 @@ ul {
 
 .adress-norm {
   font-style: normal;
+  padding-top: 24px;
+  padding-left: 332px;
 }
 
 .section-one {
