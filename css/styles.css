@@ -22,6 +22,15 @@ body {
   margin-right: 0;
 }
 
+.container-secton-one {
+  display: block;
+  max-width: 100%;
+  padding-left: 510px;
+  padding-right: 510px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .container-header {
   display: inline-flex;
   max-width: 100%;
@@ -30,6 +39,19 @@ body {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
+}
+
+.profits {
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  justify-content: space-between;
+}
+
+.our-team {
+  display: flex;
+  padding-bottom: 120px;
+  justify-content: space-between;
 }
 
 .navigation {
@@ -53,16 +75,22 @@ ul {
 }
 
 .header-one {
+  display: block;
+  width: 496px;
+  padding-top: 188px;
+  margin-left: 0 auto;
   font-weight: 700;
   font-size: 56px;
   letter-spacing: 0.02em;
   line-height: 1.07;
-  text-align: center;
   color: #ffffff;
   background-color: #2e2f42;
+  text-align: center;
 }
 
 .header-two {
+  padding-top: 120px;
+  padding-bottom: 72px;
   font-weight: 700;
   line-height: 1.11;
   text-align: center;
@@ -151,6 +179,10 @@ ul {
 }
 
 .button-service {
+  padding: 16px 32px;
+  margin-top: 48px;
+  margin-bottom: 188px;
+  margin-left: 164px;
   border: 0;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -175,6 +207,7 @@ ul {
 }
 
 .section-one {
+  display: flex;
   background-color: #2e2f42;
 }
 
@@ -183,6 +216,8 @@ ul {
 }
 
 .section-three .heroes {
+  width: 264px;
+  height: 380px;
   background-color: #ffffff;
 }
 
@@ -193,6 +228,7 @@ ul {
 }
 
 .body-one {
+  width: 264px;
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
