@@ -15,43 +15,51 @@ body {
 }
 
 .container {
-  max-width: 100%;
-  padding-left: 156px;
-  padding-right: 156px;
-  margin-left: 0;
-  margin-right: 0;
+  width: 1128;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0;
 }
 
-.container-secton-one {
-  display: block;
-  max-width: 100%;
-  padding-left: 510px;
-  padding-right: 510px;
-  margin-left: 0;
-  margin-right: 0;
+.container-one {
+  display: flex;
+  width: 1128;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0;
 }
 
-.container-header {
-  display: inline-flex;
-  max-width: 100%;
-  padding-left: 156px;
-  padding-right: 156px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
+.container-two {
+  display: flex;
+  flex-direction: column;
+  background-color: #2e2f42;
+  width: 1128;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0;
+}
+
+.container-four {
+  width: 1128;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0;
+  background-color: #f4f4fd;
 }
 
 .profits {
   display: flex;
-  padding-top: 120px;
-  padding-bottom: 120px;
   justify-content: space-between;
 }
 
 .our-team {
   display: flex;
-  padding-bottom: 120px;
   justify-content: space-between;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .navigation {
@@ -75,16 +83,15 @@ ul {
 }
 
 .header-one {
-  display: block;
-  width: 496px;
   padding-top: 188px;
-  margin-left: 0 auto;
+  padding-left: 472px;
+  padding-right: 472px;
+  padding-bottom: 48px;
   font-weight: 700;
   font-size: 56px;
   letter-spacing: 0.02em;
   line-height: 1.07;
   color: #ffffff;
-  background-color: #2e2f42;
   text-align: center;
 }
 
@@ -115,6 +122,18 @@ ul {
 }
 
 .header-three {
+  margin-top: 32px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.header-three-portfolio {
+  padding-left: 16px;
+  margin-top: 32px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -123,6 +142,7 @@ ul {
 }
 .nav-webstudio {
   padding-right: 76px;
+  padding-left: 141px;
   padding-top: 24px;
   padding-bottom: 24px;
   font-family: Raleway, sans-serif;
@@ -180,9 +200,9 @@ ul {
 
 .button-service {
   padding: 16px 32px;
-  margin-top: 48px;
   margin-bottom: 188px;
-  margin-left: 164px;
+  margin-left: auto;
+  margin-right: auto;
   border: 0;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -206,9 +226,9 @@ ul {
   padding-left: 332px;
 }
 
-.section-one {
-  display: flex;
-  background-color: #2e2f42;
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-three {
@@ -222,6 +242,7 @@ ul {
 }
 
 .profession {
+  text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -235,6 +256,7 @@ ul {
   color: #434455;
 }
 .product {
+  padding-left: 16px;
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
