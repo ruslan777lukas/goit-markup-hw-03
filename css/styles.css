@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  width: 1128;
+  width: 1158;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0;
@@ -23,7 +23,8 @@ body {
 
 .container-one {
   display: flex;
-  width: 1128;
+  justify-content: center;
+  width: 1158;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0;
@@ -33,33 +34,42 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #2e2f42;
-  width: 1128;
+  width: 1158;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0;
 }
 
 .container-four {
-  width: 1128;
+  width: 1158;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   margin: 0;
   background-color: #f4f4fd;
 }
 
 .profits {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 24px;
+  text-align: left;
 }
 
 .our-team {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
+  gap: 24px;
 }
 
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 
 .navigation {
@@ -96,7 +106,6 @@ ul {
 }
 
 .header-two {
-  padding-top: 120px;
   padding-bottom: 72px;
   font-weight: 700;
   line-height: 1.11;
@@ -123,7 +132,6 @@ ul {
 
 .header-three {
   margin-top: 32px;
-  text-align: center;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -141,8 +149,8 @@ ul {
   color: #2e2f42;
 }
 .nav-webstudio {
-  padding-right: 76px;
-  padding-left: 141px;
+  margin-right: 76px;
+  /* padding-left: 141px; */
   padding-top: 24px;
   padding-bottom: 24px;
   font-family: Raleway, sans-serif;
@@ -167,10 +175,10 @@ ul {
 .nav {
   padding-top: 24px;
   display: flex;
+  column-gap: 40px;
 }
 
 .nav-studio {
-  padding-right: 40px;
   color: #2e2f42;
   letter-spacing: 0.02em;
   font-weight: 500;
@@ -184,7 +192,6 @@ ul {
 }
 
 .mailto {
-  padding-right: 40px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -223,7 +230,7 @@ ul {
 .adress-norm {
   font-style: normal;
   padding-top: 24px;
-  padding-left: 332px;
+  margin-left: 332px;
 }
 
 .section {
@@ -235,7 +242,7 @@ ul {
   background-color: #f4f4fd;
 }
 
-.section-three .heroes {
+.heroes {
   width: 264px;
   height: 380px;
   background-color: #ffffff;
@@ -263,5 +270,7 @@ ul {
   color: #434455;
 }
 .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #2e2f42;
 }
