@@ -50,7 +50,7 @@ body {
   background-color: #f4f4fd;
 }
 
-li {
+.portfolio li {
   width: calc((100% - 48px) / 3);
 }
 
