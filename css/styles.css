@@ -18,6 +18,10 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.flex {
+  display: flex;
+}
+
 .container {
   width: 1158px;
   padding-left: 15px;
@@ -25,7 +29,7 @@ body {
   margin: 0 auto;
 }
 
-.portfolio li {
+.portfolio-li {
   width: calc((100% - 48px) / 3);
 }
 
@@ -56,8 +60,11 @@ body {
 
 .profits {
   display: flex;
-  justify-content: center;
   gap: 24px;
+}
+
+.shirina-bloka {
+  width: calc((100% - 72px) / 4);
   text-align: left;
 }
 
@@ -78,6 +85,10 @@ body {
 .navigation {
   display: flex;
   align-items: center;
+}
+.navigation-mailto {
+  display: flex;
+  gap: 40px;
 }
 
 img {
@@ -147,6 +158,16 @@ ul {
   color: #2e2f42;
 }
 
+.header-three-profit {
+  text-align: left;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
 .header-three-portfolio {
   margin-bottom: 8px;
   font-weight: 500;
@@ -188,10 +209,11 @@ ul {
 
 .nav {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .nav-studio {
+  padding: 24px 0;
   color: #2e2f42;
   letter-spacing: 0.02em;
   font-weight: 500;
@@ -206,7 +228,6 @@ ul {
 
 .mailto {
   font-weight: 400;
-  margin-left: 40px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -300,7 +321,6 @@ ul {
 }
 
 .body-one {
-  width: 264px;
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 1.5;
