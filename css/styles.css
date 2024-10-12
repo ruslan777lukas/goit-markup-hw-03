@@ -50,6 +50,9 @@ body {
   letter-spacing: 0.03em;
   color: #4d5ae5;
 }
+.nav-webstudio-footer .footer-name {
+  color: #f4f4fd;
+}
 
 .profits {
   display: flex;
@@ -181,9 +184,6 @@ ul {
 }
 .nav-webstudio .plan-name {
   color: #2e2f42;
-}
-.nav-webstudio-footer .footer-name {
-  color: #f4f4fd;
 }
 
 .nav {
