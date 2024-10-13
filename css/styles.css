@@ -92,11 +92,6 @@ body {
   gap: 40px;
 }
 
-.header-conteiner {
-  display: flex;
-  align-items: center;
-}
-
 img {
   display: block;
 }
