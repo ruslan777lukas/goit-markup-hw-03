@@ -78,6 +78,11 @@ body {
   column-gap: 24px;
 }
 
+.adress-norm {
+  font-style: normal;
+  margin-left: 332px;
+}
+
 .navigation {
   display: flex;
   align-items: center;
@@ -85,6 +90,12 @@ body {
 .navigation-mailto {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.flex-header {
+  display: flex;
 }
 
 img {
@@ -257,11 +268,6 @@ ul {
 }
 .button-service:hover {
   background-color: #404bbf;
-}
-
-.adress-norm {
-  font-style: normal;
-  margin-left: 332px;
 }
 
 .section-one {
