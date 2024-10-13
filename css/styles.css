@@ -90,12 +90,11 @@ body {
 .navigation-mailto {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
-.flex-header {
+.header-conteiner {
   display: flex;
+  align-items: center;
 }
 
 img {
